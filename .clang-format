@@ -22,8 +22,8 @@ BraceWrapping:
   SplitEmptyNamespace: true
   BeforeWhile: false
 ColumnLimit: 120
-BinPackParameters: true
-BinPackArguments: true
+BinPackParameters: false
+BinPackArguments: false
 AccessModifierOffset: -4
 NamespaceIndentation: All
 FixNamespaceComments: false
@@ -32,3 +32,8 @@ AllowShortCaseLabelsOnASingleLine: false
 MaxEmptyLinesToKeep: 1
 IndentPPDirectives: BeforeHash
 IndentCaseLabels: true
+AlignAfterOpenBracket: AlwaysBreak
+IndentExternBlock: Indent
+BreakBeforeBinaryOperators: true
+AllowAllParametersOfDeclarationOnNextLine: false
+AllowShortEnumsOnASingleLine: false
