@@ -37,3 +37,4 @@ IndentExternBlock: Indent
 BreakBeforeBinaryOperators: true
 AllowAllParametersOfDeclarationOnNextLine: false
 AllowShortEnumsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: Inline
